@@ -1,0 +1,200 @@
+body{
+    font-family: 'Blender Pro';
+}
+.bg-back{
+    margin-left: auto;
+    margin-right: auto;
+    top: 50%;
+    left: 0;
+    right: 0;
+    z-index: -1;
+}
+.bg-body{
+    background: #07111B !important;
+}
+.bg-btn-tournament{
+    background:rgba(0, 0, 0, 0.3)
+}
+.bg-circle-sponsor{
+    background: linear-gradient(180deg, #030B13 0%, #020F1C 100%);
+}
+.boxs-card{
+    box-shadow: -1px 5px 8px 8px rgba(0, 0, 0, 0.25);
+}
+.bg-linear-gradient{
+    background: linear-gradient(86.41deg, #FF0A00 0%, #FF6000 97.05%);
+}
+.margin-auto{
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+}
+
+/* ? CUSTOM CLASS */
+
+/* ? Fonts */
+.fs-120{
+    font-size: 120px;
+}
+.fs-96{
+    font-size: 96px;
+}
+.fs-72{
+    font-size: 72px;
+}
+.fs-64{
+    font-size: 64px;
+}
+.fs-48{
+    font-size: 48px;
+}
+.fs-24{
+    font-size: 24px;
+}
+.fs-20{
+    font-size: 20px;
+}
+.fs-18{
+    font-size: 18px;
+}
+.fs-16{
+    font-size: 16px;
+}
+
+/* ? Border Radius */
+.border-r5{
+    border-radius: 5px;
+}
+.border-r10{
+    border-radius: 10px;
+}
+.border-r50{
+    border-radius: 50%;
+}
+
+.img-back{
+    z-index: -1;
+    opacity: 0.4;
+}
+.padding-24{
+    padding: 24px;
+}
+
+.mx-w540{
+    max-width: 540px;
+}
+.o-10{
+    opacity: 0.1;
+}
+.o-38{
+    opacity: 0.38;
+}
+.p-main{
+    padding-top: 350px;
+    padding-bottom: 200px;
+}
+.p-btn{
+    padding: 12px 24px;
+}
+.p-steps{
+    padding-top: 250px;
+    padding-bottom: 250px;
+}
+.c-red{
+    color : #FF0A00;
+}
+.c-text-h1{
+    color: #07111B;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #fff; 
+}
+.position-h1-btext{
+    left: 0; 
+    right: 0; 
+    margin-left: auto; 
+    margin-right: auto; 
+    z-index: -1;
+    transform: translate(0.1%,2%)
+
+}
+.center{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.text-gradient{
+    background: linear-gradient(86.41deg, #FF0A00 0%, #FF6000 97.05%);
+    -webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+/* ? CUSTOM CLASS */
+
+/* ! HEADER ! */
+.header{
+    height: 74px;
+}
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 99;
+}
+.bg-header{
+    background: rgba(7, 17, 27, 0.9);
+}
+.h-link:hover{
+    border-bottom: 3px solid;
+    border-image: linear-gradient(86.41deg, #FF0A00 0%, #FF6000 97.05%) 1 0;
+    background: rgba(0, 0, 0, 0.2);
+    transition: all ease-in-out .1s;
+}
+
+.h-link:hover > .h-text{
+    font-weight: normal;
+    background: linear-gradient(86.41deg, #FF0A00 0%, #FF6000 97.05%);
+    -webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+/* ! HEADER ! */
+
+/* ! MAIN ! */
+.mainblock{
+    background: linear-gradient(86.41deg, #FF0A00 0%, #FF6000 97.05%);
+    opacity: 0.95;
+}
+.iphone-main{
+    top: 20%;
+    right: 25%;
+}
+
+.hexagon-metrics{
+    width: 100%;
+}
+.text-metrics{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+.mask{
+    -webkit-mask-image: linear-gradient(to bottom, transparent 25%, black 75%);
+}
+.rotate{
+    transform: rotate(-180deg);
+}
+
+.step-text-position{
+    bottom: -200%;
+    left: -15%;
+}
+
+.tournament-btn:hover{
+    cursor: pointer;
+}
+
+.circle-sponsor-wd{
+    width: 536px;
+    height: 536px;
+}
